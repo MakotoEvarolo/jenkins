@@ -10,5 +10,5 @@ class Calculator:
 
     def divide(self, a, b):
         if b == 0:
-            raise ValueError("Can't divide by zero")
+            raise ValueError("Can't / by zero")
         return a / b
